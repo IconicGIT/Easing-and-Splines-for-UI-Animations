@@ -641,7 +641,9 @@ bool Scene::Update(float dt)
 	{
 		app->render->DrawTexture(bg, 0, 0);
 
-		app->fonts->DrawText(20,10, font3, "Example 3/3");
+		app->fonts->DrawText(20, 10, font3, "Example 3/3");
+		app->fonts->DrawText(20, 400, font3, "Use [Q] and [E] to change the Easing Mode");
+		app->fonts->DrawText(20, 432, font3, "Use [A] and [D] to change the Tweening Time");
 
 		if (app->input->GetKey(SDL_SCANCODE_Q) == KEY_DOWN)
 		{
