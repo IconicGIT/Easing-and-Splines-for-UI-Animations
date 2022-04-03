@@ -448,6 +448,23 @@ public:
         tween.backward();
     }
 
+    float Progress()
+    {
+        return tween.progress();
+    }
+
+    uint32_t TotalDuration()
+    {
+        
+        return tween.duration();
+    }
+    
+    int Direction()
+    {
+        return tween.direction();
+    }
+    
+
     tweeny::tween<int> Main() const
     {
         return tween;

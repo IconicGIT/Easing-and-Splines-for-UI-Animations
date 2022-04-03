@@ -57,7 +57,7 @@ private:
 	SDL_Texture* bg;
 	SDL_Texture* letters;
 	SDL_Texture* slider;
-	Tween example1Tween;
+	Tween twExample;
 	int totalTweenings;
 	int tweeningTime;
 	int tweeningEasingType;
@@ -71,25 +71,50 @@ private:
 	SDL_Texture* sign;
 	SDL_Texture* tree;
 	SDL_Texture* UIelements;
+	SDL_Texture* inventory;
 	SDL_Rect panel;
 	SDL_Rect button1;
 	SDL_Rect button2;
 	SDL_Rect button_small;
 
-	Tween cameraTween;
-	Tween UI_panelTween;
-	Tween UI_button1Tween;
-	Tween UI_button2Tween;
-	Tween UI_button3Tween;
+	Tween twCamera;
+	Tween tw_UI_panel;
+	Tween tw_UI_inventory;
+	Tween tw_UI_btn_Save;
+	Tween tw_UI_btn_Load;
+	Tween tw_UI_btn_Return;
 
 	BasicPlayer player1;
 
 	bool menuOpen;
-	//Example 3
-	Tween tweenHammer;
-	Tween tweenGhost;
-	Tween tweenJaws;
+	bool inventoryOpen;
 
+
+	//Example 3
+	SDL_Texture* trollface;
+	int trollfaceTweeningType;
+	int trollfacetweeningTime;
+	bool growing;
+	bool rotating;
+	bool opaque;
+	bool R_;
+	bool G_;
+	bool B_;
+
+	bool activeGrow;
+	bool activeRotation;
+	bool activeAlpha;
+	bool activeR;
+	bool activeG;
+	bool activeB;
+
+
+	Tween tw_size;
+	Tween tw_alpha;
+	Tween tw_angle;
+	Tween tw_R;
+	Tween tw_G;
+	Tween tw_B;
 
 };
 
