@@ -2,7 +2,7 @@
 
 ## Description
 
-This program shows 3 examples of how Easing can be applied in many areas of a project in order to give life to movements and actions and enhance UX.
+This program shows 3 examples of how Easing can be applied in many areas of a project in order to give life to movements and actions and overall enhance UX.
 
 ## Key Features
 
@@ -33,9 +33,11 @@ Use 1 2 3 to move between the examples.
 
 ### Example 1
  [Q U E R T] to move to a specific box.
+ 
  [Horizontal Arrows] to move to a near box.
  
  [A Z] to change the Easing Mode.
+ 
  [S X] to change the Tweening Time.
  
  ### Example 2
@@ -43,7 +45,9 @@ Use 1 2 3 to move between the examples.
  
  ### Example 3
  [Z X C V B N] to toggle on/off a certain behavior.
+ 
  [Q E] to change the Easing Mode.
+ 
  [A D] to change the Tweening Time.
 
 ## Developers
