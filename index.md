@@ -33,9 +33,47 @@ A spline is a line controlled by a what are called <b>control points</b>, and it
 
 ![spline_example](https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/images/spline_example.png)
 
-_Spline Example_
+_Spline Example (in red) formed by two other functions (magenta and green)_
 
-There are many advanced mathematics involvesd in making these ([paper explaining](URL 'https://en.wikipedia.org/wiki/Spline_(mathematics)'))
+There are many advanced mathematics involvesd in making these ([paper explaining](https://people.cs.clemson.edu/~dhouse/courses/405/notes/splines.pdf)), but the results are remarkable!
+
+They are used in science and mathematics, but they are also applicable to entertainment, such as animation, music and videogames!
+
+
+
+![car_spline](https://github.com/frgfm/sdcnd-path-planning/blob/master/static/images/result.gif)
+
+![fish_path](https://d3kjluh73b9h9o.cloudfront.net/original/3X/c/d/cd3780e49cf552f069ff91340c7d002d5c472f5c.gif)
+
+## Usage in Videogames
+
+Well, we know what they are, but how are these things used in videogames?
+
+### Splines in Videogames
+
+A we have seen, splines are very useful when it comes to joining points smoothly. This is particularly useful at the time of making paths of any type, as it can imitate a very organic and fluid movement (as the fish shown earlier).
+
+Similarly, we can use its capabilities to make literal paths. As shown in the next [footage](https://www.youtube.com/watch?v=saAQNRSYU9k), by using a spline defined by some points and a preset of a floor tile, we can make a roadway with a low amount of resources!
+
+### Easing Functions
+
+As shown, easing functions serve to control the speed of a movement. This is an easy explanation, but it can extrapolate to many uses!
+
+For example, we can make some very interesting effects to props and characters in both 2D and 3D games:
+
+![](https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/gd_easings.gif)
+
+_Geometry Dash_
+
+![](https://blog.roblox.com/wp-content/uploads/2016/12/elastic.gif)
+_Roblox_
+
+
+
+
+
+
+
 
 ## Welcome to GitHub Pages
 
