@@ -13,7 +13,7 @@ By using Easing Functions and Splines you can easily give life to the movements 
 As redundant as it may sound, _Easing functions_ are _functions_ that let us control the "speed" of a certain movement within a certain time and duration:
 
 
-![easing_circular_out](https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/easing_circular_out.gif)
+![easing_circular_out](https:\\github.com\IconicGIT\Easing-and-Splines-for-UI-Animations\blob\main\docs\gifs\easing_circular_out.gif)
 
 _Circular Out easing type_
 
