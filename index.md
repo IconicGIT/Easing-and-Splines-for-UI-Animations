@@ -13,16 +13,21 @@ By using Easing Functions and Splines you can easily give life to the movements 
 As redundant as it may sound, _Easing functions_ are _functions_ that let us control the "speed" of a certain movement within a certain time and duration:
 
 
-![easing_circular_out](https:\\github.com\IconicGIT\Easing-and-Splines-for-UI-Animations\blob\main\docs\gifs\easing_circular_out.gif)
+<p align="center">
+  <img width="981" height="552" src="https://help.figma.com/hc/article_attachments/360082959854/EASE_OUT_CURVE.gif">
+</p>
 
 _Circular Out easing type_
 
-
-![easing_bounce_out](https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/bounce_out.gif)
+<p align="center">
+  <img width="600" height="456" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/bounce_out.gif">
+</p>
 
 _Bounce Out easing type_
 
-![easing_back_oyt](https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/back_out.gif)
+<p align="center">
+  <img width="600" height="456" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/back_out.gif">
+</p>
 
 _Back Out easing type_
 
@@ -31,19 +36,22 @@ _Back Out easing type_
 
 A spline is a line controlled by a what are called <b>control points</b>, and its shape follows their position by interpolating from one point to another using polynomials. 
 
-![spline_example](https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/images/spline_example.png)
-
+<p align="center">
+  <img width="259" height="194" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/images/spline_example.png">
+</p>
 _Spline Example (in red) formed by two other functions (magenta and green)_
 
 There are many advanced mathematics involvesd in making these ([paper explaining](https://people.cs.clemson.edu/~dhouse/courses/405/notes/splines.pdf)), but the results are remarkable!
 
 They are used in science and mathematics, but they are also applicable to entertainment, such as animation, music and videogames!
 
+<p align="center">
+  <img width="640" height="480" src="https://github.com/frgfm/sdcnd-path-planning/blob/master/static/images/result.gif">
+</p>
 
-
-![car_spline](https://github.com/frgfm/sdcnd-path-planning/blob/master/static/images/result.gif)
-
-![fish_path](https://d3kjluh73b9h9o.cloudfront.net/original/3X/c/d/cd3780e49cf552f069ff91340c7d002d5c472f5c.gif)
+<p align="center">
+  <img width="294" height="154" src="https://d3kjluh73b9h9o.cloudfront.net/original/3X/c/d/cd3780e49cf552f069ff91340c7d002d5c472f5c.gif">
+</p>
 
 ## Usage in Videogames
 
@@ -61,19 +69,34 @@ As shown, easing functions serve to control the speed of a movement. This is an 
 
 For example, we can make some very interesting effects to props and characters in both 2D and 3D games:
 
-![](https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/gd_easings.gif)
+<p align="center">
+  <img width="600" height="338" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/gd_easings.gif">
+</p>
 
-_Geometry Dash_
+_Geometry Dash: Easings avaiable in level editor_
 
-![](https://blog.roblox.com/wp-content/uploads/2016/12/elastic.gif)
-_Roblox_
+<p align="center">
+  <img width="504" height="490" src="https://blog.roblox.com/wp-content/uploads/2016/12/linear.gif)">
+  <img width="504" height="490" src="https://blog.roblox.com/wp-content/uploads/2016/12/elastic.gif)">
+</p>
+
+_Roblox: linear vs elastic easing_
 
 
 
+Now, when it comes to UI, they can also be applied. And it also creates many interesting effects!:
 
+<p align="center">
+  <img width="573" height="320" src="https://wagon-wheel.yoyogames.com/sites/5d75794b3c84c70006700381/assets/6195eb6ff7db4d0009a20e41/ht_part6.gif">
+</p>
 
+<p align="center">
+  <img width="480" height="270" src="https://thumbs.gfycat.com/TastyDependentBadger-size_restricted.gif">
+</p>
 
-
+<p align="center">
+  <img width="296" height="640" src="https://image.mux.com/MKWaGjq7aWmpQ5zoGm6WjHi2SUeHaWReovgy026c022dI/animated.gif">
+</p>
 
 ## Welcome to GitHub Pages
 
