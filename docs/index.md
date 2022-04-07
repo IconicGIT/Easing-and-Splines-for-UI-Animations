@@ -20,7 +20,7 @@ As redundant as it may sound, _Easing functions_ are _functions_ that let us con
 _Circular Out easing type_
 
 <p align="center">
-  <img width="600" height="456" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/bounce_out.gif">
+  <img width="600" height="456" src="gifs/bounce_out.gif">
 </p>
 
 _Bounce Out easing type_
