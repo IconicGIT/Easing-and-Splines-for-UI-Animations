@@ -26,7 +26,7 @@ _Circular Out easing type_
 _Bounce Out easing type_
 
 <p align="center">
-  <img width="600" height="456" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/back_out.gif">
+  <img width="600" height="456" src="gifs/back_out.gif">
 </p>
 
 _Back Out easing type_
@@ -37,7 +37,7 @@ _Back Out easing type_
 A spline is a line controlled by a what are called <b>control points</b>, and its shape follows their position by interpolating from one point to another using polynomials. 
 
 <p align="center">
-  <img width="259" height="194" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/images/spline_example.png">
+  <img width="259" height="194" src="images/spline_example.png">
 </p>
 
 _Spline Example (in red) formed by two other functions (magenta and green)_
@@ -71,7 +71,7 @@ As shown, easing functions serve to control the speed of a movement. This is an 
 For example, we can make some very interesting effects to props and characters in both 2D and 3D games:
 
 <p align="center">
-  <img width="600" height="338" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/gd_easings.gif">
+  <img width="600" height="338" src="gifs/gd_easings.gif">
 </p>
 
 _Geometry Dash: Easings avaiable in level editor_
@@ -573,7 +573,7 @@ This line will tell the tween to start at point 0 and end in the point 100 in a 
 In order to update the twee, you will need to use ```tween.step(_,false)```. Fill an integer to advance a certain amount of points, or a float if you want to advance in percentages. In this case is ```tween.step(1,false)```.
 
 <p align="center">
-  <img width="600" height="338" src="https://github.com/IconicGIT/Easing-and-Splines-for-UI-Animations/blob/main/docs/gifs/tween_linear.gif">
+  <img width="600" height="338" src="gifs/tween_linear.gif">
 </p>
 
 You can extrapolate the movement to any length by using ```tween.point() * length``` .
